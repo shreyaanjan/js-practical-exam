@@ -31,7 +31,8 @@ function deleteTask(idx){
 }
 
 function updateTask(idx, data){
-    taskArr.findIndex((taskIdx)=>{
-        return taskIdx.idx == idx;
-    })
+    taskArr[idx] == idx;
+    console.log(taskArr);
+    let newData = idx;
+    console.log(newData);
 }
